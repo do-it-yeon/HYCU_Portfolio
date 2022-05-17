@@ -1,11 +1,139 @@
 body {
     font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
 }
 
 h1, h2, h3, .profile {
     font-family: 'Montserrat', sans-serif;
 }
 
+.profile {
+    color: white;
+    margin-top: 80px;
+}
+
 img {
     max-width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    color: white;
+    margin: 0px 15px;
+    padding: 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+nav ul :hover {
+    color: #69c8ff;
+}
+
+nav {
+    background-color: black;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+nav ul {
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+header {
+    position: relative;
+    top: 70px;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 130%;
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 0;
+}
+
+.button {
+    border: 1px solid #9f9999;
+    color: #9f9999;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.intro-img {
+    margin-top: 80px;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+figcaption {
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.experience {
+    text-align: center;
+    margin-top: 120px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    line-height: 180%;
+}
+
+.skill-list {
+    text-align: center;
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 100px;
+}
+
+.project {
+    margin: 20px 0;
+    padding: 50px;
+}
+
+.project .button {
+    padding: 5px 10px;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin: 100px 50px 50px 50px;
+}
+
+footer h3 {
+    font-size: 25px;
+}
+
+.right-text {
+    text-align: right;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
 }
